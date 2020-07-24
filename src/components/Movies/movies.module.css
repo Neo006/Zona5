@@ -1,0 +1,22 @@
+.allMovies img {
+    max-height: 350px;
+    transition: transform .5s ease
+}
+
+.movie > a {
+    text-decoration: none !important;
+}
+
+.movie > a:hover h4 {
+    color: gold;
+    transform: scale(1.1)
+}
+
+.movie h4 {
+    color: #fff;
+    transition: all .5s ease;
+}
+
+.notFound {
+    color: #fff;
+}
